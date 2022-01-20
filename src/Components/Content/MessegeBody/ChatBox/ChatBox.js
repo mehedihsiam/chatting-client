@@ -23,7 +23,7 @@ const ChatBox = () => {
                     <div className="action">
                         <FontAwesomeIcon icon={faEllipsisV} />
                     </div>
-                    <div className="action">
+                    <div id='cross-icon' className="action">
                         <FontAwesomeIcon icon={faTimes} />
                     </div>
                 </div>

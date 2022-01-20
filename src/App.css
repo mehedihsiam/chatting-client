@@ -16,6 +16,50 @@ html, body, #root, .App {
   }
 }
 
+@media only screen and (max-width: 777px) {
+  .left-menu{
+    display: none !important;
+  }
+  .user-list{
+    display: none !important;
+  }
+  .user-list-container{
+    display: none !important;
+  }
+
+  .container{
+    grid-column: 1/-1 !important;
+  }
+  .content{
+    grid-column: 1/-1 !important;
+  }
+  .chat-box{
+    width: 100% !important;
+    grid-row: 1/-1 !important;
+    border-radius: 0px !important;
+  }
+  .messege-body {
+    grid-column: 1/-1 !important;
+  }
+  .messege-body-header {
+    display: none !important;
+  }
+  .user-name{
+    color: black !important;
+  }
+  .action{
+    color: black !important;
+  }
+  .chatting-header{
+    border-radius: 0px !important;
+    background-color: #fff !important;
+    border-bottom: 1px solid gray;
+  }
+  #cross-icon{
+    display: none !important;
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
