@@ -1,0 +1,11 @@
+.content{
+    grid-column: 2/-1;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+}
+
+.user-list-container{
+    grid-column: 1/4;
+}

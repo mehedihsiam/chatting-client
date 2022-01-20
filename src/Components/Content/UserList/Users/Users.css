@@ -1,0 +1,6 @@
+.users{
+    grid-row: 4/-1;
+    border: 2px solid rgb(212, 211, 211);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

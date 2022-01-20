@@ -1,0 +1,6 @@
+.messege-body{
+    grid-column: 4/-1;
+    display: grid;
+    grid-template-rows: repeat(12,1fr);
+    grid-row-gap: 10px;
+}

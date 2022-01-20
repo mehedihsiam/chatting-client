@@ -1,0 +1,19 @@
+.messege-body-header{
+    width: 95%;
+    grid-row: 1/3;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-functions{
+    display: flex;
+    font-size: 1.5rem;
+    color: #3C3C3C;
+}
+
+.my-name{
+    margin-right: 10px;
+    margin-left: 10px;
+}
