@@ -19,8 +19,8 @@ const MessegeBodyHead = () => {
                     <FontAwesomeIcon icon={faBell} />
                 </div>
                 <div className="user-info">
-                    <img src={users[0].profile} alt="" className='user-profile' />
-                    <p className='my-name'>{users[0].name.split(' ')[0]}</p>
+                    <img src={users[0]?.profile} alt="" className='user-profile' />
+                    <p className='my-name'>{users[0]?.name.split(' ')[0]}</p>
                 </div>
                 <div className="function">
                     <FontAwesomeIcon icon={faAngleDown} />

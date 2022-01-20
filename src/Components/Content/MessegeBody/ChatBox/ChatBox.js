@@ -16,8 +16,8 @@ const ChatBox = () => {
         <div className='chat-box'>
             <div className='chatting-header'>
                 <div className="user-info">
-                    <img src={users[0].profile} alt="user profile" className='user-profile' />
-                    <p className='user-name'>{users[0].name}</p>
+                    <img src={users[0]?.profile} alt="user profile" className='user-profile' />
+                    <p className='user-name'>{users[0]?.name}</p>
                 </div>
                 <div className="actions">
                     <div className="action">
